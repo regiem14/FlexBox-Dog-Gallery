@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+.gallery{
+    display: flex;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: blue;
+    color: blueviolet;
+    border-bottom: 4px solid orange;
+}
